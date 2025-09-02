@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { apiFetch } from "../api";
 
-const API_URL = "http://docutrack.mrdavisdev.com:8000/api";
+const API_URL = "https://dtbackend-production.up.railway.app/api";
 
 export default function Requests({ token }) {
   const [requests, setRequests] = useState([]);
